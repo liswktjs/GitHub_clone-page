@@ -162,6 +162,18 @@ header .sub-menu li a{
 header .sub-menu li a:hover{
     color :#4078c0;
 }
+#toggle-btn{
+    display:none;
+    background: url(../img/toggle-btn.svg);
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+
 /*SUMMARY */
 .summary{
 
@@ -284,8 +296,6 @@ header .sub-menu li a:hover{
     max-width: 1200px;
 }
 .section--feature .tiles ul{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
 
 }
 .section--feature .tiles li{
@@ -294,6 +304,8 @@ header .sub-menu li a:hover{
     line-height:  1.5;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
+    float: left;
+    width: 25%;
 }
 .section--feature .tiles li:last-child{
     border-right: none;
